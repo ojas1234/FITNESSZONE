@@ -1,0 +1,94 @@
+
+#black{
+    width: 100%;
+    height:20px;
+    background-color: black;
+}
+#call{
+    margin-left: 60px;
+    width:300px;
+    color: white;
+    height:30px;
+    text-align: center;
+}
+nav{
+    height: 49px;
+    width:100%;
+    background-color: black;
+}
+#links{
+    display: flex;
+    height: 50px;
+    width: 60%;
+}
+a:link{
+    display:inline;
+    margin-left: 60px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+a:hover{
+    cursor: pointer;
+    background-color:  black;
+    color: white;
+}
+#images{
+    width: 100%;
+    height: 192px;
+}
+#consult{
+    width:25%;
+    height:192px: 
+}
+#proccess{
+    margin-left: 25%;
+    margin-top: -150px;
+    width: 75%;
+    height: 192px;
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} 
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/search.png');
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}

@@ -1,0 +1,379 @@
+<html>
+    <head>
+        <title>FITNESSZONE</title>
+        <link rel="icon" href="http://www.manchesterfitnesszone.com/images/fitnesszone_logo_100.png">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+$(document).ready(function(){
+    $(".button1").click(function(){
+        $(".fullarticle").hide();
+        $("#day1").show();
+    });
+    $(".button2").click(function(){
+        $(".fullarticle").hide();
+        $("#day2").show();
+    });
+    $(".button3").click(function(){
+        $(".fullarticle").hide();
+        $("#day3").show();
+    });
+        
+    $(".button4").click(function(){
+        $(".fullarticle").hide();
+        $("#day4").show();
+    });
+    $(".button5").click(function(){
+        $(".fullarticle").hide();
+        $("#day5").show();
+    });
+});
+</script>
+    </head>
+    <body>
+        <div id="black">
+        <div id="call">
+            <a href="tel:555111222"><i class="fa fa-phone"> Any Questions?Call-Us:1120225738</i></a>
+        </div>
+        </div>
+        
+         <nav>
+            <div id="links">
+         <a href="index.html" class="w3-button" ><font color="white">Home</font></a>
+         <a href="#exercise" class="w3-button "><font color="white">Exercises</font></a>
+         <a href="#diet" class="w3-button "><font color="white">Diet</font></a>
+         <a href="#map" class="w3-button "><font color="white">Nearby Gyms</font></a>
+        <a href="#curl" class="w3-button "><font color="white">Related Videos</font></a>
+            </div>
+        </nav>
+        <div class="w3-content w3-section" style="width:100%">
+  <img class="mySlides" src="images/image1.jpg" style="width:100%">
+  <img class="mySlides" src="images/image2.jpg" style="width:100%">
+  <img class="mySlides" src="images/image3.jpg" style="width:100%">
+  <img class="mySlides" src="images/image4.jpg" style="width:100%">          
+</div>
+        <div id="images">
+            <div id="consult">
+            <img src="images/consult.png">
+            </div>
+            <div id="proccess">
+        <img src="images/proccess.jpg">
+            </div>
+        </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+        <div id="exercise" style="margin-top: 80px;margin-left: 30px">
+            <h1><b>Effective Exercises</b></h1>
+            <img src="images/exercise.jpg" style="height: 300px;width: 500px;margin-top: 50px;margin-left: 70px">
+            <div id="cardio" style="margin-left: 50%; margin-top: -320px; margin-right: 30px" >
+                <h2><b>Cardio</b></h2><br>
+                <p><h3><center>The  American  College  of Sports Medicine reports that you can elevate your metabolism for up to 24 hours post-exercise by adding just one little twist to your exercise routine: intervals. All you have to do is inject brief periods of intense effort into your regular walks (or runs, swims, bicycling, elliptical sessions, etc). The intensity effectively resets your metabolism to a slightly higher rate during your workout, and it takes hours for it to slow down again. That equals ongoing calorie burn long after you've showered and toweled off.</center></h3>
+                </p>
+            </div>
+        <br>
+        <br>
+        <h1><b><center>Push-Up</center></b></h1>
+        
+        <img src="images/pushup.jpg" style="height: 400px;width: 550px;margin-left: 30px;margin-top: 20px">
+        <div id="pushup">
+            <iframe style="height: 400px;width:550px;margin-left: 50%;margin-top: -400px; " src="https://players.brightcove.net/429049095/NyCeLFM6l_default/index.html?videoId=2546428073001">
+            </iframe>
+        </div>
+        <br>
+        
+        <h1><b style="margin-left: 30px">Crunch(abdomen)</b></h1>
+        <iframe src="https://players.brightcove.net/429049095/NyCeLFM6l_default/index.html?videoId=2546428077001" style="height: 400px; width: 550px;margin-left: 35px;"></iframe>
+        <div id="curl" style="margin-left: 650px;margin-top: -460px">
+            <h1><b>Curl(Biscep)</b></h1>
+            <iframe src='https://players.brightcove.net/429049095/NyCeLFM6l_default/index.html?videoId=2546433431001' style="height: 400px; width: 550px;margin-left: 35px;"></iframe>
+        </div>
+        
+        <div id="diet" style="margin-top: 60px;">
+            <h1><b>Healthy Meal Plan to lose Weight and get into shape</b></h1>
+            <br>
+            <h3><b><i style="background-color: grey;margin-left: 20px;">THIS 5-DAY SAMPLE MEAL PLAN FOR WEIGHT LOSS IS ALL ABOUT EATING MORE, NOT LESS.</i></b></h3>
+            <div id="days" style="height: 80px; width: 100%;margin-top: 30px;margin-left: 30px;">
+               <button class="button button1">Day1</button>
+                <button class="button button2">Day2</button>
+                <button class="button button3">Day3</button>
+                <button class="button button4">Day4</button>
+                <button class="button button5">Day5</button>
+            </div>
+            <div class="fullarticle" id="day1" style="margin-left: 30px;">
+                <img src="images/day1.jpg" style="height: 500px; width: 300px; float: right; margin-right: 100px">
+                <h2><b><font color="orange">Breakfast</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Oatmeal with Fresh or Frozen (No Sugar Added) Fruit</h3>
+                <br>
+                <h3 style="margin-left: 20px">Tea or Coffee</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Morning Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Veggie-Salsa Tortilla</h3>
+                <br>
+                <h3 style="margin-left: 20px">1 Navel Orange or 2 Tangerines</h3>
+                <br>
+                    <h2><b><font color="orange">Lunch</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">2 Cups Mixed Greens with 1 Cup of Other Veggies, Chopped, Dressed with Aged Balsamic Vinegar</h3>
+                <br>
+                <h3 style="margin-left: 20px">Hearty Italian-Style White Bean Soup</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Afternoon Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">6 Ounces of Nonfat Plain or No-Sugar-Added Yogurt with Your Choice of Berries Swirled Throughout</h3>
+                <br>
+                <h3 style="margin-left: 20px">1 Apple</h3>
+                <br>
+                <h2><b><font color="orange">Dinner</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Salad</h3>
+                <br>
+                <h3 style="margin-left: 20px">Mustard Coated Salmon (3½ to 4 ounces)</h3>
+                <br>
+                 <h3 style="margin-left: 20px">Baked Potato with 2 Tablespoons Fat-Free Sour Cream and a Sprinkling of Chives or Scallions</h3>
+                <br>
+            </div>
+            <div class="fullarticle" id="day2" style="margin-left: 30px;">
+                <img src="images/day12.jpg" style="height: 400px; width: 400px; float: right; margin-right: 70px">
+                <h2><b><font color="orange">Breakfast</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Egg White Omelet</h3>
+                <br>
+                <h3 style="margin-left: 20px">Hash Browns</h3>
+                <br>
+                <h3 style="margin-left: 20px">Bowl of Blueberries,Fresh or Frozen(No Sugar Added)</h3>
+                <br>
+                <h3 style="margin-left: 20px">Tea or Hot Cocoa,if desired</h3>
+                <br>
+                <h2><b><font color="orange">Big Handful of Grapes</font></b></h2>
+                <br>
+                    <h2><b><font color="orange">Lunch</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Salad</h3>
+                <br>
+                <h3 style="margin-left: 20px">Turkey Sandwich
+Sandwich of fresh roasted turkey breast (3½ to 4 ounces)</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Afternoon Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Pear</h3>
+                <br>
+                <h3 style="margin-left: 20px">Popcorn – air-popped or fat-free microwave</h3>
+                <br>
+                <h2><b><font color="orange">Dinner</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Veggie Burger on a Whole-Wheat Bun with Roasted Red Bell Peppers</h3>
+                <br>
+                <h3 style="margin-left: 20px">Steamed Fresh Vegetables</h3>
+                <br>
+            </div>
+            <div class="fullarticle" id="day3" style="margin-left: 30px; ">
+                <img src="images/day2.jpg"  style="height: 400px; width: 400px; float: right; margin-right: 70px" >
+                <h2><b><font color="orange">Breakfast</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Hot Whole-Grain Cereal with Blueberrie</h3>
+                <br>
+                <h3 style="margin-left: 20px">Tea or Coffee</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Morning Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">1 Cup Diced Watermelon or Other Seasonal Fresh Fruit</h3>
+                <br>
+                <h3 style="margin-left: 20px">1 Snack Bag of Baby Carrots</h3>
+                <br>
+                    <h2><b><font color="orange">Lunch</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Vegetarian Chili</h3>
+                <br>
+                <h3 style="margin-left: 20px">1 Ear of Corn</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Afternoon Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Cottage Cheese and Fruit</h3>
+                <br>
+                <h3 style="margin-left: 20px">1 Apple</h3>
+                <br>
+                <h2><b><font color="orange">Dinner</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Spinach Salad</h3>
+                <br>
+                <h3 style="margin-left: 20px">Chicken with Cherry Tomatoes</h3>
+                <br>
+                 <h3 style="margin-left: 20px">Brown Rice</h3>
+                <br>
+            </div>
+            <div class="fullarticle" id="day4" style="margin-left: 30px; ">
+                <img src="images/day22.jpg"  style="height: 400px; width: 400px; float: right; margin-right: 70px">
+                <h2><b><font color="orange">Breakfast</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">1 Cup Fresh Fruit</h3>
+                <br>
+                <h3 style="margin-left: 20px">Tea or Coffee</h3>
+                <br>
+                <h3 style="margin-left: 20px">1 Cup Nonfat Plain or Nonfat, No-Sugar-Added Yogurt</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Morning Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">1 to 2 Cups of Veggie-Rich, Bean-Rich Low-Sodium Soup, such as…
+Red Bean and Leftover Veggie Soup</h3>
+                <br>
+                    <h2><b><font color="orange">Lunch</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Tuna Sandwich</h3>
+                <br>
+                <h3 style="margin-left: 20px">Carrot and Pineapple Salad</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Afternoon Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Sweet Potato</h3>
+                <br>
+                <h2><b><font color="orange">Dinner</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Salad with Honey Mustard Dressing</h3>
+                <br>
+                <h3 style="margin-left: 20px">Curried Quinoa and Tofu</h3>
+                <br>
+            </div>
+            <div class="fullarticle" id="day5" style="margin-left: 30px;">
+                <img src="images/day23.jpg"  style="height: 400px; width: 400px; float: right; margin-right: 70px">
+                <h2><b><font color="orange">Breakfast</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Oatmeal Supreme</h3>
+                <br>
+                <h3 style="margin-left: 20px">Tea or Coffee</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Morning Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Carrots and Hummus</h3>
+                <br>
+                    <h2><b><font color="orange">Lunch</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Tomato Cream Soup</h3>
+                <br>
+                <h3 style="margin-left: 20px">Butter Beans With Lemon and Scallion</h3>
+                <br>
+                <h2><b><font color="orange">Mid-Afternoon Snack (enjoy only if hungry)</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">1 to 2 Cups of Fresh Fruit</h3>
+                <br>
+                <h2><b><font color="orange">Dinner</font></b></h2>
+                <br>
+                <h3 style="margin-left: 20px">Easy Tangy Salmon</h3>
+                <br>
+                <h3 style="margin-left: 20px">Soba Noodles With Spicy Cucumbers</h3>
+                <br>
+                 <h3 style="margin-left: 20px">1 to 2 Cups Sautéed Spinach</h3>
+                <br>
+                
+            </div>
+        </div>
+        
+        <div id="search" style="margin-left: 40px; margin-top: 100px;">
+            <h1><b>Nearby Gyms</b></h1>
+            <br>
+            <form>
+  <input type="text" name="search" placeholder="Search.." style="margin-left: 60px" id="pac-input" class="controls">
+</form>
+        </div>
+         <div id="map" style="width:100%;height:400px;margin-top: 50px; background:yellow"></div>
+    <script>
+      // This example adds a search box to a map, using the Google Place Autocomplete
+      // feature. People can enter geographical searches. The search box will return a
+      // pick list containing a mix of places and predicted search terms.
+
+      // This example requires the Places library. Include the libraries=places
+      // parameter when you first load the API. For example:
+      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+      function initAutocomplete() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -33.8688, lng: 151.2195},
+          zoom: 13,
+          mapTypeId: 'roadmap'
+        });
+
+        // Create the search box and link it to the UI element.
+        var input = document.getElementById('pac-input');
+        var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+        // Bias the SearchBox results towards current map's viewport.
+        map.addListener('bounds_changed', function() {
+          searchBox.setBounds(map.getBounds());
+        });
+
+        var markers = [];
+        // Listen for the event fired when the user selects a prediction and retrieve
+        // more details for that place.
+        searchBox.addListener('places_changed', function() {
+          var places = searchBox.getPlaces();
+
+          if (places.length == 0) {
+            return;
+          }
+
+          // Clear out the old markers.
+          markers.forEach(function(marker) {
+            marker.setMap(null);
+          });
+          markers = [];
+
+          // For each place, get the icon, name and location.
+          var bounds = new google.maps.LatLngBounds();
+          places.forEach(function(place) {
+            if (!place.geometry) {
+              console.log("Returned place contains no geometry");
+              return;
+            }
+            var icon = {
+              url: place.icon,
+              size: new google.maps.Size(71, 71),
+              origin: new google.maps.Point(0, 0),
+              anchor: new google.maps.Point(17, 34),
+              scaledSize: new google.maps.Size(25, 25)
+            };
+
+            // Create a marker for each place.
+            markers.push(new google.maps.Marker({
+              map: map,
+              icon: icon,
+              title: place.name,
+              position: place.geometry.location
+            }));
+
+            if (place.geometry.viewport) {
+              // Only geocodes have viewport.
+              bounds.union(place.geometry.viewport);
+            } else {
+              bounds.extend(place.geometry.location);
+            }
+          });
+          map.fitBounds(bounds);
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzvmUg_dj4P9PVVhduT14uWZW4ceAqpHU&callback=myMap&libraries=places&callback=initAutocomplete"
+         async defer></script>
+    </body>
+</html>
